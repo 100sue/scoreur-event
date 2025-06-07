@@ -157,7 +157,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const nextSlide =
       currentVideoSlide === videoSlides.length - 1 ? 0 : currentVideoSlide + 1;
     goToVideoSlide(nextSlide);
-  }, 7000);
+  }, 9000);
 
   // Form submission
   
