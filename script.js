@@ -160,12 +160,13 @@ document.addEventListener("DOMContentLoaded", function () {
   }, 7000);
 
   // Form submission
-  const contactForm = document.getElementById("contactForm");
-  contactForm.addEventListener("submit", function (e) {
-    e.preventDefault();
-    alert("Merci pour votre message! Nous vous répondrons très rapidement.");
-    contactForm.reset();
-  });
+  
+  // const contactForm = document.getElementById("contactForm");
+  // contactForm.addEventListener("submit", function (e) {
+  //   e.preventDefault();
+  //   alert("Merci pour votre message! Nous vous répondrons très rapidement.");
+  //   contactForm.reset();
+//  });
 
   // Initialize animations after page load
   function initAnimations() {
