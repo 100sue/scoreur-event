@@ -580,6 +580,7 @@ section {
 }
 
 /* Evenement Section */
+
 #evenement {
   background: linear-gradient(135deg, var(--secondary) 0%, #1a2530 100%);
 }
@@ -610,6 +611,7 @@ section {
 }
 
 /* Images de fond séparées du HTML */
+
 .slide-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("media/mlk15.png");
@@ -617,17 +619,25 @@ section {
 
 .slide-2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("media/mlk26.jpg");
+    url("media/momo-bas.jpg");
 }
 
 .slide-3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("media/pub.jpg");
+    url("media/mamzy.jpg");
 }
 
 .slide-4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("media/pub.jpg");
+}
+.slide-5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("media/mlk16.png");
+}
+.slide-6 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("media/mlk26.jpg");
 }
 
 .slide-content {
@@ -709,7 +719,8 @@ section {
   right: 20px;
 }
 
-/* Planning Section - CORRECTION APPLIQUÉE */
+/* Planning Section */
+
 #planning {
   background: linear-gradient(135deg, #1a2530 0%, var(--secondary) 100%);
   min-height: 100vh;
@@ -717,6 +728,15 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+#planning h4 {
+  color: #e74c3c;
+  font-family: w;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: relative;
+  z-index: 2;
 }
 
 .poules-container {
