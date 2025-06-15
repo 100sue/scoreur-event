@@ -629,13 +629,25 @@ section {
 
 .slide-4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("media/pub.jpg");
+    url("media/tsering.jpg");
 }
 .slide-5 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("media/mlk16.png");
+    url("media/tour4.jpg");
 }
 .slide-6 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("media/benali.jpg");
+}
+.slide-7 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("media/pub.jpg");
+}
+.slide-8 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("media/mlk16.jpg");
+}
+.slide-9 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("media/mlk26.jpg");
 }
