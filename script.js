@@ -114,6 +114,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const nextSlide = currentSlide === slides.length - 1 ? 0 : currentSlide + 1;
     goToSlide(nextSlide);
   }, 5000);
+
+  
   // Slider functionality (Vidéos)
   const videoSlider = document.querySelector(".video-slider");
   const videoSlides = document.querySelectorAll(".video-slide");
